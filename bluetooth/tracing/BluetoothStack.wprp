@@ -806,12 +806,6 @@
       </Keywords>
     </EventProvider>
 
-    <EventProvider Id="Microsoft-Windows-AppModel-Exec" Name="EB65A492-86C0-406A-BACE-9912D595BD69" Level="5" NonPagedMemory="false">
-      <Keywords>
-        <Keyword Value="0xfffd"/>
-      </Keywords>
-    </EventProvider>
-
     <Profile Id="BluetoothStack.Light.Memory" LoggingMode="Memory" Name="BluetoothStack" DetailLevel="Light" Description="Bluetooth stack default profile">
       <Collectors>
         <EventCollectorId Value="Traces_paged">
@@ -920,7 +914,6 @@
             <EventProviderId Value="Microsoft.Windows.HostActivityManager"/>
             <EventProviderId Value="Microsoft.Windows.BackgroundManager"/>
             <EventProviderId Value="Microsoft.Windows.ActivationManager"/>
-            <EventProviderId Value="Microsoft-Windows-AppModel-Exec"/>
           </EventProviders>
         </EventCollectorId>
 
@@ -1076,7 +1069,6 @@
             <EventProviderId Value="Microsoft.Windows.HostActivityManager"/>
             <EventProviderId Value="Microsoft.Windows.BackgroundManager"/>
             <EventProviderId Value="Microsoft.Windows.ActivationManager"/>
-            <EventProviderId Value="Microsoft-Windows-AppModel-Exec"/>
           </EventProviders>
         </EventCollectorId>
 
